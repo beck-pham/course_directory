@@ -18,7 +18,7 @@ import Featured from './Featured';
 
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/course-directory">
     <div className="container">
       <Header />
       <Switch> {/*It helps rendering the first Route that matches the URL, and it stops.
